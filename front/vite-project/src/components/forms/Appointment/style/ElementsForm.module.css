@@ -1,0 +1,89 @@
+/* Contenedor principal */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('src/assets/img/fondo.jpg') no-repeat center center/cover;
+    padding: 20px;
+  }
+  
+  /* Formulario */
+  .form {
+    background-color: moccasin;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Logo */
+  .logoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    border-radius: 50px;
+    width: 15em;
+    height: auto;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grupo de entrada */
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Botón */
+  .buttonContainer {
+    text-align: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  }
+  

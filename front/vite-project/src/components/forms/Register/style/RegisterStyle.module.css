@@ -1,0 +1,103 @@
+/* style/RegisterStyle.module.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("src/assets/img/fondo.jpg") center center / cover no-repeat;
+    overflow: hidden;
+}
+  
+  .register-form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  .logo {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+  .input-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+  
+  .input-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .input-column label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+  .input-column input {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+  .input-profile-picture {
+    margin-top: 20px;
+}
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  .register-button {
+    background-color: #ffa07a;
+    color: white;
+}
+  
+  .register-button:hover {
+    background-color: #ff4500;
+}
+  
+  .login-button {
+    background-color: #add8e6;
+    color: white;
+}
+  
+  .login-button:hover {
+    background-color: #4682b4;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    width: 80%;
+  }
+}

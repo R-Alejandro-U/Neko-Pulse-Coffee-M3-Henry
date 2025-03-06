@@ -1,0 +1,106 @@
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+/* Estilo para el contenedor de la página */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('src/assets/img/fondo.jpg') no-repeat center center/cover;
+}
+
+h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Asegúrate de que los botones también usen la fuente */
+button {
+    font-family: 'CCSamaritanLower Regular', sans-serif;
+}
+
+/* Estilo para la tarjeta de login */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra exterior */
+    text-align: center;
+    width: 300px; /* Tamaño de la tarjeta */
+    position: relative;
+}
+
+/* Estilo para el logo (circular) */
+.logo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 1em;
+}
+
+/* Título de inicio de sesión */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los inputs */
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Botones de acción */
+.button-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'CCSamaritanLower Regular', sans-serif;
+}
+
+.button-container button:first-child {
+    background-color: #E63946; /* Color vibrante para 'Iniciar sesión' */
+    color: white;
+}
+
+.button-container button:last-child {
+    background-color: #FFD700; /* Amarillo vibrante para 'Registrarse' */
+    color: white;
+}
+
+/* Efectos hover */
+.button-container button:hover {
+    opacity: 0.9;
+}
+
+/* Hacer la tarjeta de login responsive */
+@media (max-width: 600px) {
+    .login-form {
+        width: 80%;
+    }
+}
